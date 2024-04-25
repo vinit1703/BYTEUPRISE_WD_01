@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>Vinit17 Portfolio</title>
+</head>
+
+<body>
+
+    <nav id="desktop-nav">
+        <div class="logo"><b>Vinit Satardekar</b></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Chillvinit</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container" id="back">
+            <img src="./assets/vinit profile photo.png" alt="Vinit Satardekar profile picture" />
+            <div id="back-color"></div>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Information Technology Engineering GEC || Honors in Data Science</p>
+            <h1 class="title">Vinit Satardekar</h1>
+            <p class="section__text__p2">Cloud & DataScience </p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Vinit.pdf')">
+                    Download Resume
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/vinitsatardekar/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/vinit1703'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+
+        <h1 class="title">About Me</h1>
+        <h1 id="title-background"> About Me </h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/react.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+
+                        <h3>Education</h3>
+                        <p>Goa College of Engineering, Farmagudi Goa | Branch: Information Technology | Honors in Data Science | (2021-2025)
+                             | CGPA:8.5+ </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Driven by innovation's power to change the world, I'm a lifelong learner, fuelled by curiosity and a thirst for knowledge. My
+                        ambidextrous mind juggles diverse interests, from research and technology to personal growth. Fascinated by fields like data
+                        science, cloud, psychology and finance, I'm eager to leverage my skills and collaborative spirit to make a positive impact.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience" class="margin-all">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <h1 id="title-background"> Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Cloud</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DataAnalytics</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>AWS</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article> <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PowerBI</h3>
+                                <p>Experienced</p>
+
+                            </div>
+                        </article>
+                    </article> <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Webflow</h3>
+                            <p>Experienced</p>
+
+                        </div>
+                    </article> </article> <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>PHP & SQL</h3>
+                            <p>Experienced</p>
+
+                        </div>
+                    </article> </article> <article>
+                        <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                        <div>
+                            <h3>Prompt Eng</h3>
+                            <p>Experienced</p>
+
+                        </div>
+                    </article>
+
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Relevent Coursework</h2>
+                    <div class="article-container">
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DSA</h3>
+                                <p>Grade 9</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Algorithms</h3>
+                                <p>Grade 10</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Network</h3>
+                                <p>Grade 8</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Statistics</h3>
+                                <p>Grade 8</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>DBMS</h3>
+                                <p>Grade 8</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>OperatingSys</h3>
+                                <p>Grade 8</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Software</h3>
+                                <p>Grade 9</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>AI/ML</h3>
+                                <p>Grade 10</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                        <h3>Java</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                        <h3>C/C++</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                        <h3>Python</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                    <div>
+                        <h3>HTML/CSS</h3>
+                        <p>Intermediate</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects" class="margin-all">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <h1 id="title-background-project"><span> </span>Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="border-change details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">WebFlow for developing dynamic portfolio</h2>
+                    <div class="btn-container">
+                        
+                    </div>
+                </div>
+                <div class="border-change details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">PowerBI dashboard for data analytics</h2>
+                    <div class="btn-container">
+                       
+                    </div>
+                </div>
+                <div class="details-container color-container border-change">
+                    <div class="article-container">
+                        <img src="./assets/project3.png" alt="Project 3" class="project-img" id="amazon-project" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">FinanceTool using windows forms</h2>
+                    <div class="btn-container">
+                    </div>
+                </div>
+
+                <div class="details-container color-container border-change">
+                    <div class="article-container">
+                        <img src="./assets/project4.jpg" alt="Project 3" class="project-img" id="amazon-project" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Webapp using tailwind and firebase</h2>
+                    <div class="btn-container">
+                    </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact" class="margin-all">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:vinitmay17@gmail.com">vinitmay17@gmail.com</a></p>
+            
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/vinitsatardekar/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+        <p>Copyright &#169; 2024 Vinit Sataderkar. All Rights Reserved.</p>
+    </footer>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@bufferhead/nightowl@0.0.14/dist/nightowl.js"></script>
+</body>
+
+</html>

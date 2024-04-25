@@ -1,0 +1,254 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+
+    #contact,
+    #projects {
+        height: fit-content;
+    }
+
+    #title-background {
+        display: none;
+    }
+
+    #title-background-project {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+
+    #profile,
+    .section-container {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    section,
+    .section-container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about-containers {
+        margin-top: 0;
+    }
+
+    #back-color {
+        width: 280px;
+        height: 280px;
+        left: 25px;
+        bottom: 2px;
+    }
+
+    #amazon-project {
+        width: 300px;
+        /* border-radius: 2px solid red; */
+        height: auto;
+    }
+
+    .border-change {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    #contact,
+    footer {
+        height: 40vh;
+    }
+
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        margin: 0;
+    }
+
+    .contact-info-container p,
+    .nav-links li a {
+        font-size: 1rem;
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 95px;
+        /* right:20px; */
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .text-container {
+        text-align: justify;
+    }
+
+    .nightowl-daylight {
+        display: none;
+    }
+
+    .border-change {
+        border: 2px solid grey;
+    }
+}
+
+@media screen and (max-width: 541px) {
+    #back-color {
+        width: 250px;
+        height: 250px;
+        left: 114px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #back-color {
+        width: 230px;
+        height: 230px;
+        left: 107px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 490px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 80px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 93px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 431px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 100px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 412px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 94px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 391px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 89px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 361px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 77px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 356px) {
+    #back-color {
+        width: 200px;
+        height: 200px;
+        left: 77px;
+        /* right:20px; */
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #back-color {
+        display: none;
+    }
+}
